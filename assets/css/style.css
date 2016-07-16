@@ -1,0 +1,201 @@
+/*
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active {
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+*/
+
+body {
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.navbar-brand {
+    color: #6D0A26!important;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navbar-brand sup {
+    font-weight: normal;
+}
+
+.spiel h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.spiel .pull-left {
+    padding: 10px;
+}
+
+.marketing h2, .marketing{
+    text-align: center;
+}
+
+.marketing h2 {
+    padding-bottom: 30px;
+}
+
+.form-signin, .form-recovery {
+    max-width: 430px;
+    margin: 0 auto;
+}
+
+.form-signin, 
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -web-kit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+footer {
+    text-align: center;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #660112;
+    *background-color: #660112;
+    background-image: -moz-linear-gradient(top, #7E0016, #660112);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7E0016), to(#660112));
+    background-image: -webkit-linear-gradient(top, #7E0016, #660112);
+    background-image: -o-linear-gradient(top, #7E0016, #660112);
+    background-image: linear-gradient(to bottom, #7E0016, #660112);
+    background-repeat: repeat-x;
+    border-color: #660112;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7E0016', endColorstr='#660112', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+    color: #FFFFFF;
+    background-color: #660112;
+    *background-color: #003bb3;
+    border-color: #660112;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary:hover {
+
+}
+
+/*
+About page
+*/
+
+.main .page-header {
+    margin-top: 5px;
+}
+
+/*
+Programs page/s
+*/
+
+.page-programs .offerings {
+    padding-top: 30px;
+}
+
+/*
+About page
+*/
+
+.page-about .tab-pane {
+    padding: 20px 0 15px;
+}
+
+/*
+Dashboard page
+*/
+
+.form-dashboard {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav-requirements li {
+    list-style-type: square;
+}
+
+/*
+Basic user forms
+*/
+
+.form-user {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.page-user-apply-education .panel-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.bottom-buffer {
+    margin-bottom: 20px;
+}
+
+.page-user-recover, .page-user-login, .page-user-register {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+.page-programs .well {
+    font-size: 90%;
+}
+
+/* Media queries go here */
+
+@media screen and (max-width: 380px) {
+    .navbar-brand {
+        font-size: 95%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .navbar-brand {
+        display: none;
+    }
+}

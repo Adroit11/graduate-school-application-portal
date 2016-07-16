@@ -1,0 +1,1 @@
+<?php echo bs_nav_anchor('login', bs_glyph('user', 'Sign in')); ?>

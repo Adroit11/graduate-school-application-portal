@@ -1,0 +1,13 @@
+# Temporary files
+*~
+*.swp
+*.swo
+
+application/cache/
+application/uploads/
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
